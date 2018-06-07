@@ -1,0 +1,21 @@
+{
+   "token": "NDAyMTk0ODA3NTI4ODgyMTc2.DfV-DQ.yAYR3v8jp1_NT5J7QF6aPsFYsu8",
+   "command_prefix": "!",
+   "priority": [
+      "Groudon",
+	  "Mew",
+      "Machop",
+      "Staryu"
+   ],
+   "avoid": [],
+   "catch_rate": 99,
+   "delay": 1,
+   "delay_on_priority": false,
+   "restrict_duplicates": false,
+   "max_duplicates": 2,
+   "blacklists": [],
+   "whitelists": [],
+   "blacklist_guilds": [382316968394620938],
+   "whitelist_guilds": [417062674409455617],
+   "autolog": true
+}
