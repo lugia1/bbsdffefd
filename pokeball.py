@@ -39,7 +39,7 @@ class PokeBall(discord.Client):
         pokemons = [pokemon.split(' -> ')[0] for pokemon in self.pokelist]
         self.trash = list({dup for dup in pokemons if pokemons.count(dup) > int(self.configs["max_duplicates"]) - 1})
         self.priority_only = False
-        self.auto_catcher = False
+        self.auto_catcher = True
         self.mode = "blacklist"
         self.guild_mode = "blacklist"
         self.autolog = self.configs["autolog"]
